@@ -1,3 +1,11 @@
+* {  
+    margin: 0;
+    padding: 0;
+    transition: all .2s;
+    box-sizing: border-box;
+    
+}
+
 li a:hover {
     background-color: white;
     border-radius: 4px;
@@ -17,7 +25,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color:#0f0f0f;
+    background-color:pink;
 }
 
 nav li, nav a {
@@ -25,7 +33,7 @@ nav li, nav a {
     font-size: 20px;
     font-family: "Raleway";
     text-decoration: None;
-    color: white;
+    color: greenyellow;
     display: inline-block;
 }
 
@@ -43,3 +51,5 @@ nav img {
     width: 800px;
     margin: 0 auto;
 }
+
+
