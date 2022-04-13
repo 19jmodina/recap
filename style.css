@@ -1,0 +1,45 @@
+li a:hover {
+    background-color: white;
+    border-radius: 4px;
+    text-decoration: underline;
+    color:black;
+}
+
+nav ul {
+    float: left;
+    list-style-type: none;
+    margin-left: 55px;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:#0f0f0f;
+}
+
+nav li, nav a {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Raleway";
+    text-decoration: None;
+    color: white;
+    display: inline-block;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    margin-left: 10px; 
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
